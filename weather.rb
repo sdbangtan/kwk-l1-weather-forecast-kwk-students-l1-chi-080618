@@ -26,6 +26,6 @@ def city_weather_info(weather)
 end
 
 def convert_temp(hash)
-  return (hash[:temperature_farenheit].to_i -32.0) * 5.0 /9.0
+  return (hash[:temperature_farenheit].to_s -32.0) * 5.0 /9.0
 end
 
