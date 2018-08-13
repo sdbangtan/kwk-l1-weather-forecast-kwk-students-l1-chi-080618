@@ -17,6 +17,8 @@ return nyc_weather
 	
 end
 
+location
+
 # 2. Using the location method as a guide, write a  method called "description" so it returns the description from the weather hash. 
 
 
