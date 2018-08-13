@@ -22,7 +22,7 @@ end
 # 3. Using the methods above and string interpolation, update the method below so that it returns a string that describes the current weather - for example: "The weather in New York is Partly Cloudy. The temperature is 66.1 degrees Farenheit." HINT: the method should RETURN the string, not print it to the terminal. 
 
 def weather_report
-  return "The weather in #{:city} is #{:description}."
+  return "The weather in #{:city} is #{:description}. The temperature is "
 end
 
 
