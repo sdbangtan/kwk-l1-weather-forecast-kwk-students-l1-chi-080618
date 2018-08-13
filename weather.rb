@@ -15,7 +15,7 @@ def location(weather)
     :temperature_celcius => 19.1
 }
 
-returns "#{city}"
+return weather
 	
 end
 
