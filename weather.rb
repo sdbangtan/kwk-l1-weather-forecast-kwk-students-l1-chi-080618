@@ -7,19 +7,12 @@
 # }
 
 # 1. Complete the method below called location, that accepts a hash called weather as an argument so that it returns the value of city from the weather hash. 
-def location
-  
-  nyc_weather = {
-    :city => "New York",
-    :description => "Partly Cloudy",
-    :temperature_farenheit => 66.3,
-    :temperature_celcius => 19.1}
+def location(hash)
 
-return nyc_weather[:city]
+return hash[:city]
 	
 end
 
-location
 
 # 2. Using the location method as a guide, write a  method called "description" so it returns the description from the weather hash. 
 
