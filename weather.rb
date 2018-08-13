@@ -15,7 +15,7 @@ def location
     :temperature_farenheit => 66.3,
     :temperature_celcius => 19.1}
 
-return nyc_weather(city)
+return nyc_weather[:city]
 	
 end
 
